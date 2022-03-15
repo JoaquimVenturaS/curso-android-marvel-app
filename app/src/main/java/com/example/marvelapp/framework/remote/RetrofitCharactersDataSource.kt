@@ -11,6 +11,6 @@ class RetrofitCharactersDataSource @Inject constructor(
 
 
     override suspend fun fetchCharacters(queries: Map<String, String>): DataWrapperResponse {
-        marvelApi.getCharacters(queries)
+        return marvelApi.getCharacters(queries)
     }
 }
