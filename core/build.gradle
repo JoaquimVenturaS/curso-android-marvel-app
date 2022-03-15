@@ -11,9 +11,9 @@ java {
 dependencies {
 
     // OkHttp
-    api(platform("com.squareup.okhttp3:okhttp-bom:4.9.0"))
-    api("com.squareup.okhttp3:okhttp")
-    api("com.squareup.okhttp3:logging-interceptor")
+    def okhttp_version = '4.3.0'
+    api(platform("com.squareup.okhttp3:okhttp:$okhttp_version"))
+    api("com.squareup.okhttp3:logging-interceptor:$okhttp_version")
 
     // Retrofit
     def retrofit_version = '2.9.0'
