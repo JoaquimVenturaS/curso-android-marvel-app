@@ -7,11 +7,11 @@ class CharacterFactory {
     fun create(hero: Hero) = when (hero) {
         Hero.ThreeDMan -> Character(
             "3-D MAN",
-            "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"
+            "https://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg"
         )
         Hero.ABomb -> Character(
             "A-BOMB (HAS)",
-            "http://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16"
+            "https://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16.jpg"
         )
     }
 
